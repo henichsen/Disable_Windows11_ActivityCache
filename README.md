@@ -7,6 +7,6 @@ check absence of ActivitiesCache with WindowsKey+R
 -> %LocalAppData%\ConnectedDevicesPlatform
 with the absence of deleted directory
 
-check absence of widgets with no widgets appearing in the taskmanager 
+check absence of widgets with no widgets appearing in the taskmanager
 additional remove widget package with admin-powershell
 -> Get-AppxPackage *WebExperience* | Remove-AppxPackage
